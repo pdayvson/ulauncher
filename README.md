@@ -1,20 +1,16 @@
-# Dracula for [Ulauncher](https://ulauncher.io)
+# Personal Dracula for [Ulauncher](https://ulauncher.io)
 
-> A dark theme for [Ulauncher](https://ulauncher.io)
+> A custom dark theme for [Ulauncher](https://ulauncher.io) based on [draculatheme.com/ulauncher](https://draculatheme.com/ulauncher)
 
 ![Screenshot](./screenshot.png)
 
 ## Install
 
-All instructions can be found at [draculatheme.com/ulauncher](https://draculatheme.com/ulauncher).
+Clone this repo into `~/.config/ulauncher/user-themes/personal-dracula-ulauncher`:
 
-## Team
-
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/ulaucher/graphs/contributors).
-
-[![Cameron Eagans](https://avatars0.githubusercontent.com/u/101590?s=60&v=4)](https://github.com/thismat) |
---- |
-[Cameron Eagans](https://github.com/cweagans) |
+```bash
+$ git clone https://github.com/pdayvson/ulauncher.git ~/.config/ulauncher/user-themes/personal-dracula-ulauncher
+```
 
 ## License
 
