@@ -1,8 +1,8 @@
 /**
  * Dracula colors
  */
-@define-color background #292a39;
-@define-color current_line_background #44475A;
+@define-color background #20212b;
+@define-color current_line_background #2a2836;
 @define-color foreground #f8f8f0;
 @define-color foreground_lessimportant #58528f;
 @define-color accent #9183f7;
@@ -32,10 +32,10 @@
 @define-color item_text @foreground_lessimportant;
 @define-color item_box_selected @current_line_background;
 @define-color item_text_selected @accent;
-@define-color item_name_selected @accent;
-@define-color item_shortcut_color @foreground;
+@define-color item_name_selected @foreground;
+@define-color item_shortcut_color darker(@highlight);
 @define-color item_shortcut_shadow darker(@background);
-@define-color item_shortcut_color_sel @highlight;
+@define-color item_shortcut_color_sel @highlight_shortcut;
 @define-color item_shortcut_shadow_sel darker(@item_box_selected);
 
 .app {
@@ -58,10 +58,13 @@
 }
 
 .item-text {
+  opacity: 0.7;
   color: @item_text;
+  font-weight: bold;
 }
 .item-name {
   color: @item_name;
+  font-weight: bold;
 }
 
 .selected.item-box {
@@ -70,16 +73,20 @@
   border-right: 1px solid @window_border_color;
 }
 .selected.item-box .item-text {
+  opacity: 1;
   color: @item_text_selected;
 }
 .selected.item-box .item-name {
+  opacity: 0.8;
   color: @item_name_selected;
 }
 .item-shortcut {
+  opacity: 0.5;
   color: @item_shortcut_color;
   text-shadow: 1px 1px 1px @item_shortcut_shadow;
 }
 .selected.item-box .item-shortcut {
+  opacity: 0.8;
   color: @item_shortcut_color_sel;
   text-shadow: 1px 1px 1px @item_shortcut_shadow_sel;
 }
