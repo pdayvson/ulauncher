@@ -2,8 +2,8 @@
 
 #### Install
 
-Clone this repo into `~/.config/ulauncher/user-themes/dracula-ulauncher`:
+Clone this repo into `~/.config/ulauncher/user-themes/personal-dracula-ulauncher`:
 
-```
-git clone https://github.com/dracula/ulauncher.git ~/.config/ulauncher/user-themes/dracula-ulauncher
+```bash
+git clone https://github.com/pdayvson/ulauncher.git ~/.config/ulauncher/user-themes/personal-dracula-ulauncher
 ```
